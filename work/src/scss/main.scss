@@ -12609,7 +12609,12 @@ fieldset:disabled .btn {
 
 html {
 	height: 100%;
+	scroll-behavior: smooth;
 	scroll-padding-top: calc(4.5rem - 1px);
+}
+
+* {
+	scroll-behavior: smooth;
 }
 
 body {
